@@ -1,0 +1,98 @@
+@forward '../global';
+@forward '../util';
+
+.main{
+    margin: 0 0 1em 1em;
+}
+
+.hero{
+
+    &__card{
+        @extend %card;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+
+    &__body{
+        @extend %card-body;
+    }
+
+}
+
+.second{
+    @extend %flex-card;
+
+    &__card{
+        @extend %card;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+
+    &__body{
+        @extend %card-body;
+    }
+}
+
+.rooftop{
+
+    &__card{
+        @extend %card;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+
+    &__body{
+        @extend %card-body;
+    }
+
+}
+
+.fourth{
+    @extend %flex-card;
+
+    &__card{
+        @extend %card;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+
+    &__body{
+        @extend %card-body;
+    }
+
+}
+
+.facebook{
+    
+    &__card{
+        @extend %card;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+
+    &__body{
+        @extend %card-body;
+    }
+}
+
+@media only screen and (min-width: 70em) {
+    .main{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 70em) {
+    .second, .fourth{
+        display: block;
+    }
+}

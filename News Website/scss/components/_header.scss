@@ -1,0 +1,23 @@
+@forward '../global';
+
+.header{
+    background-color: var(--white-color);
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+
+    &__primary-title{
+        font: {
+            size: 2em;
+        }
+        margin-bottom: .8em;
+    }
+
+    &__date{
+        font: {
+            size: .8em;
+            weight: bold;
+        }
+    }
+
+}

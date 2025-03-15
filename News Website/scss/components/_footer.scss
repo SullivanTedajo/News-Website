@@ -1,0 +1,21 @@
+@forward '../global';
+
+.footer{
+    background-color: var(--black-color);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+
+    &__title{
+        color: var(--white-color);
+        font-size: 1em;
+        padding: 0;
+    }
+    &__link{
+        text: {
+            decoration: none;
+        }
+        color: var(--white-color);
+        display: block;
+    }
+}

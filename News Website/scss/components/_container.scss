@@ -1,0 +1,11 @@
+@forward '../global';
+
+.container{
+    display: flex;
+}
+
+@media only screen and (max-width: 70em) {
+    .container{
+        display: block;
+    }
+}

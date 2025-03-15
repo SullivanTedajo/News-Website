@@ -1,0 +1,60 @@
+@forward '../global';
+@forward '../util';
+
+.india{
+
+    &__body{
+        @extend %card-body;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+}
+
+.cricket{
+    &__body{
+        @extend %card-body;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+}
+
+.education{
+    &__body{
+        @extend %card-body;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+}
+
+.science{
+    &__body{
+        @extend %card-body;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+}
+
+.bollywood{
+    &__body{
+        @extend %card-body;
+    }
+
+    &__header{
+        @extend %featured-img;
+    }
+}
+
+
+@media only screen and (min-width: 70em) {
+    .aside{
+        width: 25%;
+    }
+}
